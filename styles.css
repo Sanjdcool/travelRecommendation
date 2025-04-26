@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-bar input[type="submit"],
+.search-bar input[type="reset"] {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Home page styles */
+body.home-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?travel,landscape');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.overlay h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 20px;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.social-icons {
+    margin-top: 40px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 28px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #1da1f2;
+}
+
+/* About page styles */
+.about-page h1, .about-page h2 {
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.team-member {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    color: #fff;
+}
+
+/* Contact Page Styles */
+.contact-form {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #1da1f2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0d8ddb;
+}
+
+.recommendation-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 15px;
+  text-align: center;
+}
+
+.recommendation-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#recommendations-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.overlay h2 {
+  margin-top: 40px;
+  color: #fff;
+}

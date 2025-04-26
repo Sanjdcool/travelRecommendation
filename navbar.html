@@ -1,0 +1,12 @@
+<div class="navbar">
+    <div class="nav-links">
+        <a href="#" onclick="loadContent('home.html'); return false;">Home</a>
+        <a href="#" onclick="loadContent('about.html'); return false;">About Us</a>
+        <a href="#" onclick="loadContent('contact.html'); return false;">Contact Us</a>
+    </div>
+    <form class="search-bar" onsubmit="handleSearch(event)">
+        <input type="text" name="search" placeholder="Search recommendations..." id="searchInput">
+        <input type="submit" value="Search">
+        <input type="button" value="Clear" onclick="clearSearch()">
+    </form>
+</div>
